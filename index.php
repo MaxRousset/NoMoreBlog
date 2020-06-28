@@ -37,6 +37,7 @@
 
 	<footer class="blog-footer">
 	<?php wp_footer(); ?>
+	<!--Made with love in larache-->
 	</footer>
 
 	</body>
