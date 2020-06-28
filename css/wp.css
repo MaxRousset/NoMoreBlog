@@ -174,13 +174,14 @@ nav{
 }
 /* Blog */
 
-.blog-main {
-  width: 80%;
+.main-container {
+  width: 90%;
   margin: auto;
 }
+
 @media (min-width: 992px){
-  .blog-main {
-    width: 60%;
+  .main-container {
+    width: 70%;
     margin: auto;
   }
 }

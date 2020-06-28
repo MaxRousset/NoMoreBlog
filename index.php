@@ -10,8 +10,8 @@
 	<?php get_header(); ?>
 	<!-- Blog start -->
 	<div class="main-container">
-		<div class="blog-main">
 
+		<div class="blog-main">
 			<?php	if (have_posts()) : while (have_posts()) : the_post();?>
 				<article>
 					<h2>
@@ -25,9 +25,15 @@
 			<?php endwhile;
 				endif;
 			?>
-
 		</div> <!-- /.blog-main -->
+
+		<!-- Sidebar-->
+		<?php get_sidebar( 'primary' ); ?>
+
+
 	</div> <!-- /.container -->
+
+
 
 	<footer class="blog-footer">
 	<?php wp_footer(); ?>
