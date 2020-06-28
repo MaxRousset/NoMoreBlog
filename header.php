@@ -10,12 +10,12 @@
       $custom_logo_id = get_theme_mod( 'custom_logo' );
       $logo = wp_get_attachment_image_src( $custom_logo_id , 'full' );
       if ( has_custom_logo() ) {
-              echo '<img src="'. esc_url( $logo[0] ) .'" id="custom-logo">';
+              echo '<img alt="logo" src="'. esc_url( $logo[0] ) .'" id="custom-logo">';
       }
       ?>
 
       <!-- Mobile menu button -->
-      <button class="navbar-toggler" type="button" onclick="toggleMenu()" >
+      <button aria-label="Menu" class="navbar-toggler" type="button" onclick="toggleMenu()" >
         <span class="navbar-toggler-icon" ></span>
       </button>
 

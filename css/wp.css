@@ -14,15 +14,15 @@ h1{
   padding: 10px;
   font-size: 4vw;
   width: fit-content;
-  color: #09967b;
+  color: #6b242a;
 }
 h2 ,h2 a{
     text-transform: capitalize;
-    color: #09967b;
+    color: #6b242a;
     text-decoration: underline;
 }
 h3 {
-    color: #09967b;
+    color: #6b242a;
 }
 .site-title a, .site-description {
     text-align: center;
@@ -32,10 +32,13 @@ p {
 }
 
 a {
-    color: #007bff;
+    color: #6b242a;
     text-decoration: none;
     background-color: transparent;
+    font-size: 1.5em;
+    line-height: 2em;
 }
+
 /*
 .navbar-nav{
 	flex-basis: 100%;

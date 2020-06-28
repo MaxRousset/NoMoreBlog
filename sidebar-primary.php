@@ -2,6 +2,9 @@
 
 	<div id="sidebar-primary" class="sidebar">
 		<style>
+		.sidebar {
+				width: 100%;
+		}
 		@media (min-width: 992px){
 			.blog-main {
 					width: 70%;
