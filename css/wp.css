@@ -160,6 +160,7 @@ nav {
     min-height: 100px;
     /* background-attachment: fixed; */
     /* background-position-x: center; */
+    margin-top: 60px;
     background-repeat: no-repeat;
     display: inline-flex;
     background-size: cover;
@@ -182,6 +183,7 @@ nav {
     background-repeat: no-repeat;
     background-position-x: center;
     display: flex;
+    margin-top: 60px;
   }
   .site-branding {
     margin: auto;
