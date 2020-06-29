@@ -8,7 +8,6 @@ remove_action('wp_head', 'wlwmanifest_link');
 
 // Add scripts and stylesheets
 function startwordpress_scripts() {
-	wp_enqueue_style( 'blog', get_template_directory_uri() . '/css/blog.css' );
 	wp_enqueue_style( 'wp', get_template_directory_uri() . '/css/wp.css' );
 }
 add_action( 'wp_enqueue_scripts', 'startwordpress_scripts' );
