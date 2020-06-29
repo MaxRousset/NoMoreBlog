@@ -19,7 +19,17 @@
 					</h2>
 
 					<?php the_content();?>
-					<small><?php the_time('F jS, Y') ?> <!-- by <?php the_author() ?> --></small>
+
+
+					<?php
+					if ( is_home() ) {
+					    // This is the blog posts index
+							the_time('F jS, Y');
+					} else {
+					    // This is not the blog posts index
+					}
+					?>
+
 				</article>
 				<hr/>
 			<?php endwhile;
