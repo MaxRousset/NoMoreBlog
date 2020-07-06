@@ -2,19 +2,28 @@
 
 	<div id="sidebar-primary" class="sidebar">
 		<style>
+		.main-container {
+		display: block;
+		}
+		.blog-main {
+    width: 100%;
+		}
 		.sidebar {
-				width: 100%;
+		  padding: 2%;
+			padding-top: 0;
+			float: none;
+			margin-top: 5vw;
 		}
 		@media (min-width: 992px){
+			.main-container {
+			display: flex;
+			}
 			.blog-main {
-					width: 70%;
-					float: left;
+    		width: 70%;
 			}
-			.sidebar {
-					width: 25%;
-					float: right;
-					margin-block-start: 2em;
-			}
+	    .sidebar{
+				float: right;
+	    }
 		}
 		</style>
 
